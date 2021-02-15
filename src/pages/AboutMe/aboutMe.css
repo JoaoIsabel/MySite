@@ -1,0 +1,46 @@
+.aboutMeBody {
+  display: flex;
+  width: 100%;
+}
+
+.leftColumn {
+  width: 70%;
+  background-color: #ffffff;
+}
+
+.rightColumn {
+  width: 30%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+li {
+  margin-bottom: 6%;
+  text-align: left;
+}
+
+.ExperienceList {
+  list-style-type: none;
+}
+
+.stackList {
+  display: inline-block;
+}
+
+.icons {
+  width: 20%;
+  padding: 1%;
+}
+
+.ExperienceListTitle {
+  font-size: 120%;
+}
+
+.ExperienceList {
+}
+
+.movie {
+  width: 80%;
+  height: 0px;
+  display: inline-block;
+}

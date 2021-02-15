@@ -1,0 +1,59 @@
+.container {
+  height: 90%;
+  width: 90%;
+  margin: auto auto;
+  border: 1px solid;
+  background: #565656;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+}
+
+.output {
+  width: 90%;
+  background: #e6ffdb;
+  border: 0.1rem solid;
+  text-align: ;
+  vertical-align: center;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 300px;
+  margin: 1% 5%;
+}
+.row1,
+.row2,
+.row3 {
+  width: 100%;
+  display: flex;
+}
+.row1left,
+.row1right,
+.row2left,
+.row2right,
+.row3left,
+.row3right {
+  width: 50%;
+  margin: 1%;
+  cursor: pointer;
+  background-color: #efefef;
+  color: #000000;
+  font-size: 2em;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+  font-family: ;
+}
+
+.buttons {
+  margin: 5%;
+}
+
+.stackList {
+  display: inline-block;
+}
+
+.icons {
+  width: 10%;
+  padding: 1%;
+}

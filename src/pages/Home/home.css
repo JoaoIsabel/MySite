@@ -1,0 +1,15 @@
+.backgroundImg {
+  /* The image used */
+  background-image: url("../../Images/img1.jpg");
+  filter: brightness(70%);
+  min-height: 380px;
+  height: 560px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hompageText {
+  width: 50%;
+}
