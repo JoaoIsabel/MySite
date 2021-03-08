@@ -1,9 +1,12 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from "../src/pages/Home/Home";
-import AboutMe from "../src/pages/AboutMe/AboutMe";
-import MyPortfolio from "../src/pages/MyPortfolio/MyPortfolio";
-import Contacts from "../src/pages/Contacts/Contacts";
+// import AboutMe from "../src/pages/AboutMe/AboutMe";
 import Calculator from "../src/pages/Calculator/Calculator";
+import AboutMeDisplay from "./pages/Calculator/AboutMeDisplay";
+import MyStackDisplay from "./pages/Calculator/MyStackDisplay";
+import PortfolioDisplay from "./pages/Calculator/PortfolioDisplay";
+import ContactsDisplay from "./pages/Calculator/ContactsDisplay";
+import CuriositiesDisplay from "./pages/Calculator/CuriositiesDisplay";
+import ChatDisplay from "./pages/Calculator/ChatDisplay";
 import "./App.css";
 
 function App() {
@@ -11,11 +14,14 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/aboutMe" component={AboutMe} />
-          <Route path="/myportfolio" component={MyPortfolio} />
-          <Route path="/contacts" component={Contacts} />
+          {/* <Route path="/aboutMe" component={AboutMe} /> */}
           <Route path="/calculator" component={Calculator} />
+          <Route path="/aboutmedisplay" component={AboutMeDisplay} />
+          <Route path="/mystackdisplay" component={MyStackDisplay} />
+          <Route path="/portfoliodisplay" component={PortfolioDisplay} />
+          <Route path="/contactsdisplay" component={ContactsDisplay} />
+          <Route path="/curiositiesdisplay" component={CuriositiesDisplay} />
+          <Route path="/chatdisplay" component={ChatDisplay} />
         </Switch>
       </BrowserRouter>
     </div>
